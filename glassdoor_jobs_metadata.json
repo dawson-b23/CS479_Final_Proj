@@ -1,0 +1,32 @@
+{
+    "Dataset": {
+      "Name": "Salary Dataset from Glassdoor",
+      "Description": "This dataset contains information about job listings, including job titles, company details, job locations, salary estimates, company ratings, and more. It aims to provide insights into salary trends across different industries and locations.",
+      "Source": "Kaggle",
+      "URL": "https://www.kaggle.com/datasets/thedevastator/jobs-dataset-from-glassdoor",
+      "Format": "CSV",
+      "Size": "Approximately 10,000 records",
+      "License": "Kaggle License",
+      "License URL": "https://www.kaggle.com/datasets/thedevastator/jobs-dataset-from-glassdoor",
+      "Columns": [
+        { "Name": "Job Title", "Description": "Title of the job listing" },
+        { "Name": "Company Name", "Description": "Name of the hiring company" },
+        { "Name": "Location", "Description": "Location of the job" },
+        { "Name": "Headquarters", "Description": "Headquarters location of the hiring company" },
+        { "Name": "Size", "Description": "Size of the hiring company (e.g., small, medium, large)" },
+        { "Name": "Type of Ownership", "Description": "Ownership type of the hiring company (e.g., public, private)" },
+        { "Name": "Industry", "Description": "Industry of the hiring company" },
+        { "Name": "Sector", "Description": "Sector of the hiring company" },
+        { "Name": "Revenue", "Description": "Revenue of the hiring company" },
+        { "Name": "Competitors", "Description": "Competing companies of the hiring company" },
+        { "Name": "Job Description", "Description": "Description of the job role" },
+        { "Name": "Salary Estimate", "Description": "Estimated salary range for the job" },
+        { "Name": "Rating", "Description": "Company rating on Glassdoor" },
+        { "Name": "Founded", "Description": "Year the hiring company was founded" }
+      ],
+      "Missing Values": "Handled during preprocessing",
+      "Data Preprocessing": "Preprocessing steps included handling missing values, extracting salary estimates, encoding categorical variables, and scaling numerical features.",
+      "Use Case": "Suitable for predicting salaries based on various job and company attributes, exploring salary trends across industries and locations, and analyzing factors influencing job satisfaction and company ratings."
+    }
+  }
+  
